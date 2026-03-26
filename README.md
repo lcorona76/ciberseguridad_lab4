@@ -13,16 +13,16 @@ https://github.com/rapid7/metasploitable3
 
 Windows
 
-mkdir metasploitable3-workspace
-cd metasploitable3-workspace
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/rapid7/metasploitable3/master/Vagrantfile" -OutFile "Vagrantfile"
-vagrant up
+#mkdir metasploitable3-workspace
+#cd metasploitable3-workspace
+#Invoke-WebRequest -Uri "https://raw.githubusercontent.com/rapid7/metasploitable3/master/Vagrantfile" -OutFile "Vagrantfile"
+#vagrant up
 
 Linux
 
-mkdir metasploitable3-workspace
-cd metasploitable3-workspace
-curl -O https://raw.githubusercontent.com/rapid7/metasploitable3/master/Vagrantfile \&\& vagrant up
+#mkdir metasploitable3-workspace
+#cd metasploitable3-workspace
+#curl -O https://raw.githubusercontent.com/rapid7/metasploitable3/master/Vagrantfile \&\& vagrant up
 
 Una vez que termine de hacer el deploy de las máquinas virtuales ubuntu1404 y win2k8 usted ya las veras creadas en virtualbox
 
