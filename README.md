@@ -306,3 +306,9 @@ The Metasploit Framework is a Rapid7 Open Source Project
 
 </pre>
 
+4. Ya validamos que en la ip 192.168.115.3 el servicio de ProFTP 1.3.5 existe forma de explotarla con metasploit
+
+Abrimos la consola de metaxploit
+
+
+
