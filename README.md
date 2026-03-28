@@ -515,7 +515,7 @@ Ejecutamos el xploit
 <font color="#277FFF"><b>[*]</b></font> Exploit completed, but no session was created.
 <u style="text-decoration-style:solid">msf</u> exploit(<font color="#EC0101"><b>unix/ftp/proftpd_modcopy_exec</b></font>) &gt;</pre>
 
-El error observado como se ve en la antepenultima linea es que el directorio /var/www de tiene permisos de escritura vamos a probar con el /var/www/html (son regularmente los directorios por default)
+El error observado como se ve en la antepenultima linea es que el directorio /var/www no tiene permisos de escritura vamos a probar con el /var/www/html (son regularmente los directorios por default)
 
 <pre><u style="text-decoration-style:solid">msf</u> exploit(<font color="#EC0101"><b>unix/ftp/proftpd_modcopy_exec</b></font>) &gt; set SITEPATH /var/www/html
 SITEPATH =&gt; /var/www/html
